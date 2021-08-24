@@ -1,0 +1,45 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    color: aliceblue;
+    width: 100%;
+}
+
+.app-header h1 {
+    padding-inline-start: 50px;
+}
+
+.app-header h1>* {
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav-bar {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.main-nav-bar {
+    list-style: none;
+    padding-right: 50px;
+}
+
+.main-nav-bar li>* {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.main-nav {
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    margin: 0;
+    height: 70px;
+    margin-block-end: 15px;
+}
+
+.main-nav-bar h2 {
+    padding-top: 35px;
+    font-size: 2rem;
+}
